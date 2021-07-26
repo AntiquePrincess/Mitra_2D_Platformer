@@ -255,7 +255,7 @@ public class control : MonoBehaviour
     }
     void LedgeGo() // уступ идти(дословно) запуск
     {
-        blockMoveXYforLedge = true; // ОБРАТИЛ ВНИМАНИЕ
+        //blockMoveXYforLedge = true; // ОБРАТИЛ ВНИМАНИЕ
         if (onLedge && Input.GetKeyDown(KeyCode.UpArrow))
         {
 
