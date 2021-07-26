@@ -14,7 +14,7 @@ public class MMB : MonoBehaviour // MMB - Main Menu Buttons
 
     public void PressStartButton()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene("TestScene");
     }
 
     public void PressOptionsButton()
