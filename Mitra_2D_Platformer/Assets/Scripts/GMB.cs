@@ -8,8 +8,8 @@ public class GMB : MonoBehaviour // GMB - Game Menu Buttons
 
     private void Start()
     {
-        SwitchMenuPage(0);
-        PressPauseButton();
+        //SwitchMenuPage(0);
+        //PressPauseButton();
     }
 
     private void Update()
