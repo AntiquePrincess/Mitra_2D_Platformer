@@ -7,24 +7,23 @@ public class control : MonoBehaviour
     public float speed = 3;
     public float speedDfa = 3;
 
-    private bool speedBlock = true;
     #region
     public float jumpForse = 20;
-    private bool jumpControl;
+    private bool jumpControl = false;
     private int jumpIteration = 0;
     public int jumpValueration = 45;
-    private bool jumpUP;
-    private bool JumpSap;
+    private bool jumpUP = false;
+    private bool JumpSap = false;
     private int JumpeAnim = 0;
     #endregion
-    private bool blockFlip;
+    private bool blockFlip = false;
 
     private Rigidbody2D rb;
     private Animator anim;
 
     public Vector2 moveVector;
 
-    private bool blockMoveXforJump;
+    private bool blockMoveXforJump = false;
     private bool blockMoveXYforLedge = false;
 
 
@@ -161,10 +160,10 @@ public class control : MonoBehaviour
     #endregion Jump
 
 #region Draw cube to checking touch with Ground
-[SerializeField] LayerMask Ground;
+    [SerializeField] LayerMask Ground = 0;
     [SerializeField] float GroundcheckRadius = 0.3f; 
-    [SerializeField] Transform GroundCheck;
-    [SerializeField] private bool onGround;
+    [SerializeField] Transform GroundCheck = null;
+    [SerializeField] private bool onGround = false;
     #endregion End draw
     public void CheckingGround() // Проверка земли
     {
@@ -173,14 +172,14 @@ public class control : MonoBehaviour
     }
     
     #region Draw cube to checking touch with Wall
-    [SerializeField] LayerMask Wall;
+    [SerializeField] LayerMask Wall = 0;
     public float WallcheckRayDistance = 1f;
-    public float WallcheckRadiusDoun;
-    [SerializeField] Transform WallCheckDoun;
-    [SerializeField] Transform WallCheckUp;
-    [SerializeField] private bool onWall;
-    [SerializeField] private bool onWallUp;
-    [SerializeField] private bool onWallDoun;
+    public float WallcheckRadiusDoun = 0f;
+    [SerializeField] Transform WallCheckDoun = null;
+    [SerializeField] Transform WallCheckUp = null;
+    [SerializeField] private bool onWall = false;
+    [SerializeField] private bool onWallUp = false;
+    [SerializeField] private bool onWallDoun = false;
     public bool onLedge;
     public float ledgeRayCorrectY = 0.5f;
 
