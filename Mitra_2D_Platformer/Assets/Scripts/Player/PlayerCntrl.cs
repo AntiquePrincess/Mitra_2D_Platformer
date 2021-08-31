@@ -2,14 +2,14 @@
 
 public class PlayerCntrl : MonoBehaviour
 {
-    // Movement mov;
+    public Movement mov;
     void Start()
     {
-        // mov = GetCompoent<Movement>();
+        //mov = GetCompoent<Movement>();
     }
     void Update()
     {
-        // if (Input.GetKey(KeyCode.D)) { mov.Run(); }
-        // if (Input.GetKey(KeyCode.W)) { mov.Jump(); }
+        mov.Jump();
+        mov.Wolk();
     }
 }
