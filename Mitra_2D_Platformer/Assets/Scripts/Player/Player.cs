@@ -15,7 +15,7 @@ public class Player : MonoBehaviour
     private Transform _transform;
     private Rigidbody2D _rigidbody;
     private Animator _animatorController;
-    private float _walkTime = 0, _walkCooldown = 0.2f;
+    private float _walkTime = 0, _walkCooldown = 0.1f;
 
     public void MoveRight()
     {
@@ -25,6 +25,7 @@ public class Player : MonoBehaviour
             if (_directionState == DirectionState.Left)
             {
                 _transform.localScale = new Vector3(-_transform.localScale.x, _transform.localScale.y, _transform.localScale.z);
+                //_rigidbody.velocity = new Vector2(_rigidbody.velocity.x - WalkSpeed, _rigidbody.velocity.y);
                 _directionState = DirectionState.Right;
             }
             _walkTime = _walkCooldown;
@@ -72,6 +73,10 @@ public class Player : MonoBehaviour
     }
 
     private void Update()
+    {
+
+    }
+    private void FixedUpdate()
     {
         if (_moveState == MoveState.Jump)
         {

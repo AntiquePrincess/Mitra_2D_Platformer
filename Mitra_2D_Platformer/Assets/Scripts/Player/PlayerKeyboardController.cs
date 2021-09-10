@@ -31,7 +31,7 @@ public class PlayerKeyboardController : MonoBehaviour
             {
                 Player.MoveLeft();
             }
-            if (Input.GetKeyDown(KeyCode.Space))
+            if (Input.GetKeyDown(KeyCode.W))
             {
                 Player.Jump();
             }
