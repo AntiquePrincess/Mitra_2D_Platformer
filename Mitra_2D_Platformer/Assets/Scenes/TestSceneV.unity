@@ -346,12 +346,12 @@ PrefabInstance:
     - target: {fileID: 4219441244328536058, guid: 38da82512eb89dc41b7a87804ced57a2,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.825
+      value: -3.06
       objectReference: {fileID: 0}
     - target: {fileID: 4219441244328536058, guid: 38da82512eb89dc41b7a87804ced57a2,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.753
+      value: -1.41
       objectReference: {fileID: 0}
     - target: {fileID: 4219441244328536058, guid: 38da82512eb89dc41b7a87804ced57a2,
         type: 3}
@@ -411,7 +411,7 @@ PrefabInstance:
     - target: {fileID: 4219441244328536059, guid: 38da82512eb89dc41b7a87804ced57a2,
         type: 3}
       propertyPath: m_SortingLayerID
-      value: 0
+      value: 788665141
       objectReference: {fileID: 0}
     - target: {fileID: 4219441244328536059, guid: 38da82512eb89dc41b7a87804ced57a2,
         type: 3}
@@ -434,6 +434,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 4528588927497697077, guid: 5f15762f6b4bca74185aa2406baeb5e8,
         type: 3}
+    - target: {fileID: 4219441244328536059, guid: 38da82512eb89dc41b7a87804ced57a2,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4219441245130675038, guid: 38da82512eb89dc41b7a87804ced57a2,
         type: 3}
       propertyPath: m_LocalPosition.y
@@ -476,7 +481,7 @@ MonoBehaviour:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1
   m_LightVolumeOpacity: 0
-  m_ApplyToSortingLayers: 00000000
+  m_ApplyToSortingLayers: 000000003513022f
   m_LightCookieSprite: {fileID: 0}
   m_UseNormalMap: 0
   m_LightOrder: 0
