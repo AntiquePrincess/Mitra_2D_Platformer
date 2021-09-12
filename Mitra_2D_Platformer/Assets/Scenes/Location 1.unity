@@ -1004,7 +1004,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 249516680}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.15, y: 5.78, z: 0}
+  m_LocalPosition: {x: 2.15, y: 10, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1664505175}
@@ -4960,8 +4960,6 @@ GameObject:
   - component: {fileID: 1664505180}
   - component: {fileID: 1664505179}
   - component: {fileID: 1664505178}
-  - component: {fileID: 1664505177}
-  - component: {fileID: 1664505176}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -4987,65 +4985,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1664505176
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1664505174}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d61d65b2528eddf4085d5e5e2aa6e8c9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 3
-  speedDfa: 3
-  jumpForse: 50
-  jumpValueration: 60
-  moveVector: {x: 0, y: 0}
-  Ground:
-    serializedVersion: 2
-    m_Bits: 256
-  GroundcheckRadius: 0.3
-  GroundCheck: {fileID: 498915134}
-  onGround: 0
-  Wall:
-    serializedVersion: 2
-    m_Bits: 768
-  WallcheckRayDistance: 1.2
-  WallcheckRadiusDoun: 0.35
-  WallCheckDoun: {fileID: 283569412}
-  WallCheckUp: {fileID: 1659009194}
-  onWall: 0
-  onWallUp: 0
-  onWallDoun: 0
-  onLedge: 0
-  ledgeRayCorrectY: 0.5
-  offsetY: 0
-  minCorrectDistance: 0.01
-  finishLedgePosition: {fileID: 249516681}
-  UpDounSpeed: 4
-  slideSpeed: 0
---- !u!95 &1664505177
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1664505174}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: d6fb5a7c2ef41cd4e8995fe9d65ea4ec, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!50 &1664505178
 Rigidbody2D:
   serializedVersion: 4
