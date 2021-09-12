@@ -663,7 +663,7 @@ MonoBehaviour:
   finishLedgePosition: {fileID: 2144752912}
   upDownSpeed: 4
   slideSpeed: 0
-  jumpWallTime: 0.5
+  jumpWallTime: 0.1
   jumpAngle: {x: 3.5, y: 10}
 --- !u!4 &2144752912 stripped
 Transform:
