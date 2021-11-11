@@ -32,11 +32,11 @@ public class WeaponHold : MonoBehaviour
         {
             if (!hold)
             {
-                Physics2D.queriesStartInColliders = false;
-                hit = Physics2D.Raycast(transform.position, Vector2.right * transform.localScale.x, distance);//  костыль
+                Physics2D.queriesStartInColliders = false;// для того ,что бы хит не видел свойже колайдер
+                hit = Physics2D.Raycast(transform.position, Vector2.right * transform.localScale.x, distance);// ищет ,Что взять только если нет нечего в руках, сам лучь
                 //hit = Physics2D.OverlapCircle(shotDir.position, distance, ;
 
-                if (hit.collider != null && hit.collider.tag == "Weapon")
+                if (hit.collider != null && hit.collider.tag == "Weapon")//проверка всех задетыъ колайдеров
                 {
                     hold = true;
                 }
