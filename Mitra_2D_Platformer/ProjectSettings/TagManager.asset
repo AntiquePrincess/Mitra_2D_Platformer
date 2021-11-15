@@ -7,7 +7,6 @@ TagManager:
   - tod
   - Weapon
   - Ground
-  - Arm
   layers:
   - Default
   - TransparentFX

@@ -17,7 +17,7 @@ public class Tod : MonoBehaviour
     }
     void Restart()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 0);//Можно сменить на каардинаты
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);//Можно сменить на каардинаты
         // SceneManager.LoadScene(SceneName);
     }
 }

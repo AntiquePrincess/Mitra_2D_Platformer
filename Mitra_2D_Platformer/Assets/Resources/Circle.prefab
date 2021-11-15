@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &5628857757167785623
+--- !u!1 &5512985628320211453
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,10 +8,10 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5628857757167785619}
-  - component: {fileID: 5628857757167785620}
-  - component: {fileID: 5628857757167785622}
-  - component: {fileID: 5628857757167785621}
+  - component: {fileID: 5512985628320211449}
+  - component: {fileID: 5512985628320211454}
+  - component: {fileID: 5512985628320211452}
+  - component: {fileID: 5512985628320211455}
   m_Layer: 9
   m_Name: Circle
   m_TagString: Weapon
@@ -19,28 +19,28 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5628857757167785619
+--- !u!4 &5512985628320211449
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5628857757167785623}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -17.477, y: -2.46, z: 0}
-  m_LocalScale: {x: 0.51048714, y: 0.48242995, z: 1}
+  m_GameObject: {fileID: 5512985628320211453}
+  m_LocalRotation: {x: 0, y: 0, z: 0.19396153, w: 0.9810091}
+  m_LocalPosition: {x: 10.13, y: -2.26, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children:
-  - {fileID: 5628857757193149789}
+  - {fileID: 5512985628328798775}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &5628857757167785620
+--- !u!212 &5512985628320211454
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5628857757167785623}
+  m_GameObject: {fileID: 5512985628320211453}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -84,14 +84,14 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!50 &5628857757167785622
+--- !u!50 &5512985628320211452
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5628857757167785623}
+  m_GameObject: {fileID: 5512985628320211453}
   m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
@@ -105,13 +105,13 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!58 &5628857757167785621
+--- !u!58 &5512985628320211455
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5628857757167785623}
+  m_GameObject: {fileID: 5512985628320211453}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -121,7 +121,7 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!1 &5628857757193149790
+--- !u!1 &5512985628328798772
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -129,25 +129,25 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5628857757193149789}
+  - component: {fileID: 5512985628328798775}
   m_Layer: 9
   m_Name: shotDir
-  m_TagString: Weapon
+  m_TagString: Untagged
   m_Icon: {fileID: 4162164826716764455, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5628857757193149789
+--- !u!4 &5512985628328798775
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5628857757193149790}
+  m_GameObject: {fileID: 5512985628328798772}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.84, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 5628857757167785619}
+  m_Father: {fileID: 5512985628320211449}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

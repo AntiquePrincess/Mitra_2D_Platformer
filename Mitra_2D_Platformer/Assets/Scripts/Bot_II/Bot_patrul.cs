@@ -33,11 +33,7 @@ public class Bot_patrul : MonoBehaviour
 
     void Start()
     {
-
         spriteRend = GetComponent<SpriteRenderer>();
-        matBlink = Resources.Load("EnemyBlink", typeof(Material)) as Material;
-        matDefault = spriteRend.material;
-
         Physics2D.queriesStartInColliders = false;
         rb = GetComponent<Rigidbody2D>();
         Playre = GameObject.FindGameObjectWithTag("Player").transform; 
@@ -147,23 +143,13 @@ public class Bot_patrul : MonoBehaviour
         if (coll.CompareTag("Weapon"))
         {
             health--;
-            spriteRend.material= matBlink;
-
             if( health <= 0)
             {
                 Dist = true;
                 Invoke("KillEnemy", 1f);
             }
-            else
-            {
-                Invoke("ResetMaterial", 0.2f);
-            }
         }
 
-    }
-    void ResetMaterial()
-    {
-        spriteRend.material = matDefault;
     }
     void KillEnemy()
     {
