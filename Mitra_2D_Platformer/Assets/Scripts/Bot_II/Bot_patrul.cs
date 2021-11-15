@@ -7,6 +7,8 @@ public class Bot_patrul : MonoBehaviour
     public Rigidbody2D rb;
     public float speed;
 
+    private UnityEngine.Object explosion;
+
     public int positionOfPatrol;
     public Transform point;
     bool moveingRight;
@@ -34,6 +36,14 @@ public class Bot_patrul : MonoBehaviour
     void Start()
     {
         spriteRend = GetComponent<SpriteRenderer>();
+<<<<<<< HEAD
+=======
+        matBlink = Resources.Load("EnemyBlink", typeof(Material)) as Material;
+        matDefault = spriteRend.material;
+
+        explosion = Resources.Load("Explosion");
+
+>>>>>>> parent of 8bd033b (Revert "xxx")
         Physics2D.queriesStartInColliders = false;
         rb = GetComponent<Rigidbody2D>();
         Playre = GameObject.FindGameObjectWithTag("Player").transform; 
@@ -153,6 +163,9 @@ public class Bot_patrul : MonoBehaviour
     }
     void KillEnemy()
     {
+        GameObject explosionRef = (GameObject)Instantiate(explosion);
+        explosionRef.transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
+
         Destroy(gameObject);
     }
 
