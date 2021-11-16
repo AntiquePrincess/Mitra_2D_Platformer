@@ -5,8 +5,8 @@ using UnityEngine;
 public class Gun : MonoBehaviour
 {
     public hit gunhit;
-    public bool hit = true;//Есть в руке камень или нет
-    public bool dablhitnot = true; 
+    public bool hit;//Есть в руке камень или нет
+    public bool dablhitnot; 
 
     public GameObject BulletPrefab;
     public float Power = 100;
@@ -35,7 +35,6 @@ public class Gun : MonoBehaviour
             hit = false;
             Rigidbody2D bullet = Instantiate(BulletPrefab, transform.position, Quaternion.identity).GetComponent<Rigidbody2D>();
             bullet.AddForce(speed, ForceMode2D.Impulse);
-            //Destroy(gameObject);
 
         }
         if (hit)
