@@ -15,16 +15,15 @@ public class hit : MonoBehaviour
     {
         
     }
-    public void OnTriggerStay2D(Collider2D collision)
+    private void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.CompareTag("Arm"))
         {
             if (Input.GetKey(KeyCode.E) && hitgun.hit == false)
             {
-
-                hitgun.hit = true;
                 Destroy(gameObject);
-            }               
+                hitgun.hit = true;
+            }
         }
     }
 }

@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 349126509860564792}
   - component: {fileID: 6138346011131684282}
   - component: {fileID: 8911294742565955576}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Block mine-1.1
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
