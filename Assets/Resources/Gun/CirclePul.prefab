@@ -95,9 +95,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f866df125c7fea24580bcdb75b9a3fc1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gunhit: {fileID: 0}
   hit: 1
-  dablhitnot: 1
   BulletPrefab: {fileID: 0}
   Power: 2
   offset: 0
