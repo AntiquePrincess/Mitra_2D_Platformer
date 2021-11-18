@@ -12,8 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52708407c083e9341a1b6c0640d6138e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitgun: {fileID: 0}
-  hit_m: 0
 --- !u!1001 &3104933760790714801
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24,12 +22,12 @@ PrefabInstance:
     - target: {fileID: 5628857757167785619, guid: fffc2188c3d65c94cb469482ac04af16,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -20.34
+      value: -17.477
       objectReference: {fileID: 0}
     - target: {fileID: 5628857757167785619, guid: fffc2188c3d65c94cb469482ac04af16,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -12.77
+      value: -2.46
       objectReference: {fileID: 0}
     - target: {fileID: 5628857757167785619, guid: fffc2188c3d65c94cb469482ac04af16,
         type: 3}
@@ -76,30 +74,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5628857757167785620, guid: fffc2188c3d65c94cb469482ac04af16,
-        type: 3}
-      propertyPath: m_SortingLayerID
-      value: -830359897
-      objectReference: {fileID: 0}
-    - target: {fileID: 5628857757167785620, guid: fffc2188c3d65c94cb469482ac04af16,
-        type: 3}
-      propertyPath: m_SortingLayer
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 5628857757167785623, guid: fffc2188c3d65c94cb469482ac04af16,
         type: 3}
       propertyPath: m_Name
-      value: Circle Variant
-      objectReference: {fileID: 0}
-    - target: {fileID: 5628857757167785623, guid: fffc2188c3d65c94cb469482ac04af16,
-        type: 3}
-      propertyPath: m_Layer
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 5628857757193149790, guid: fffc2188c3d65c94cb469482ac04af16,
-        type: 3}
-      propertyPath: m_Layer
-      value: 10
+      value: Circle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fffc2188c3d65c94cb469482ac04af16, type: 3}

@@ -11,6 +11,13 @@ public class Gun : MonoBehaviour
     public GameObject BulletPrefab;
     public float Power = 100;
 
+    #region
+    public float hitForse = 20;
+    private bool hitControl;
+    private int hitIteration = 0;
+    public int hitValueration = 45;
+    #endregion
+
     public float offset;
     private Camera mainCamera;
 

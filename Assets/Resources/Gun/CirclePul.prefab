@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7358452204825631604}
   - component: {fileID: 7358452204825631605}
   - component: {fileID: 7358452204825631602}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: CirclePul
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 7358452204825631603}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -23.46, y: -0.11, z: 0}
-  m_LocalScale: {x: 2.6530526, y: 2.8701267, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7358452205044938054}
   m_Father: {fileID: 0}
@@ -69,10 +69,10 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -770742131
-  m_SortingLayer: 2
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 643b67c3390422b43a68681c4d127988, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 20d7ae2d38eeed04b8178ba8ac914f5b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
@@ -95,9 +95,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f866df125c7fea24580bcdb75b9a3fc1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gunhit: {fileID: 0}
   hit: 1
+  dablhitnot: 1
   BulletPrefab: {fileID: 0}
   Power: 2
+  hitForse: 20
+  hitValueration: 45
   offset: 0
 --- !u!1 &7358452205044938055
 GameObject:
@@ -109,7 +113,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7358452205044938054}
   - component: {fileID: 7358452205044937913}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: img
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -166,8 +170,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -770742131
-  m_SortingLayer: 2
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 643b67c3390422b43a68681c4d127988, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
