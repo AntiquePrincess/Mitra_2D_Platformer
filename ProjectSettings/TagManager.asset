@@ -4,10 +4,10 @@
 TagManager:
   serializedVersion: 2
   tags:
+  - tod
+  - Weapon
   - Ground
   - Arm
-  - Weapon
-  - tod
   layers:
   - Default
   - TransparentFX
@@ -17,9 +17,9 @@ TagManager:
   - UI
   - 
   - 
-  - Player
   - Ground
-  - Wepon
+  - Weapon
+  - Playre
   - 
   - 
   - 
@@ -43,17 +43,20 @@ TagManager:
   - 
   m_SortingLayers:
   - name: Back
-    uniqueID: 280082551
-    locked: 0
-  - name: BackUP
-    uniqueID: 3328613835
+    uniqueID: 2739609295
     locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Player
-    uniqueID: 3464607399
+  - name: foreBack
+    uniqueID: 1113901221
     locked: 0
-  - name: PlayerUP
-    uniqueID: 3524225165
+  - name: playre
+    uniqueID: 788665141
+    locked: 0
+  - name: PlayreUP
+    uniqueID: 2993443583
+    locked: 0
+  - name: foreground
+    uniqueID: 1044274631
     locked: 0
