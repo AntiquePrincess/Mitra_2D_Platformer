@@ -1506,7 +1506,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 537215524}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ca083ed7993677429de8f1beddae8fb, type: 3}
+  m_Script: {fileID: 11500000, guid: 92b2591b4dcdaa44287054317c8d8b21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!50 &537215526
@@ -1529,7 +1529,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 5
 --- !u!4 &555307120 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 349126509860564792, guid: e1505932d42e03e4199d08fa1a3f2a01,
@@ -10507,6 +10507,32 @@ PrefabInstance:
         type: 3}
       propertyPath: jumpForce
       value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 621480723701188813, guid: 77e96c096e0540446806f6bdd4fe839d,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1301523713
+      objectReference: {fileID: 0}
+    - target: {fileID: 621480723701188813, guid: 77e96c096e0540446806f6bdd4fe839d,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 621480723701188813, guid: 77e96c096e0540446806f6bdd4fe839d,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 20d7ae2d38eeed04b8178ba8ac914f5b,
+        type: 3}
+    - target: {fileID: 621480723701188914, guid: 77e96c096e0540446806f6bdd4fe839d,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 621480723701188914, guid: 77e96c096e0540446806f6bdd4fe839d,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 621480724016441094, guid: 77e96c096e0540446806f6bdd4fe839d,
         type: 3}
