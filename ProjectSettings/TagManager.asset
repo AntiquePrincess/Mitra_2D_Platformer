@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Ground
+  - Arm
+  - Weapon
+  - tod
   layers:
   - Default
   - TransparentFX
@@ -13,9 +17,9 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
+  - Player
+  - Ground
+  - Wepon
   - 
   - 
   - 
@@ -38,6 +42,18 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Back
+    uniqueID: 280082551
+    locked: 0
+  - name: BackUP
+    uniqueID: 3328613835
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Player
+    uniqueID: 3464607399
+    locked: 0
+  - name: PlayerUP
+    uniqueID: 3524225165
     locked: 0
