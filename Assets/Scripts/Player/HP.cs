@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class HP : MonoBehaviour
 {
 
-    public int health;
+    public float health;
     public int numberOfLives;
 
     public Image[] lives;
@@ -46,6 +46,10 @@ public class HP : MonoBehaviour
             {
                 lives[i].enabled = false;
             }
+        }
+        if (health <= 0)
+        {
+            Invoke("Restart", 1f);
         }
     }
 
