@@ -31,19 +31,16 @@ public class Panel_Halp : MonoBehaviour
  
             text.text = message[_name_];
 
-            if(_name_ == 3)
-            {
-            scenee = false;
-            }
-
-
-
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
         Gun = false;
         panelHalpe.SetActive(false);
+        if(_name_ == 3)
+        {
+        scenee = false;
+        }
     }
     void Update()
     {
