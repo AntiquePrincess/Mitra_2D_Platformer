@@ -2,7 +2,7 @@
 using UnityEditor;
 using Cinemachine;
 using System.Collections;
-
+/*
 public class CustomEditorPanels : EditorWindow
 {
     private static GameObject camera = Resources.Load("Camera") as GameObject;
@@ -41,4 +41,4 @@ public class CustomEditorPanels : EditorWindow
     {
         yield return new WaitForSeconds(time);
     }
-}
+}*/

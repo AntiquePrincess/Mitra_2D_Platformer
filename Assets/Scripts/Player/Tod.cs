@@ -6,13 +6,22 @@ using UnityEngine.SceneManagement;
 public class Tod : MonoBehaviour
 {
     public GameObject respawn;
+    public HP hp;
     public string SceneName;// В unity нужно написать какую сцену загрузить
 
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "tod")
         {
-            Invoke("Restart", 3f);
+           _DMGtoHP();
+        }
+    }
+    private void _DMGtoHP()
+    {
+        hp.health -= 5 * Time.deltaTime;
+        if (hp.health <= 0)
+        {
+            Invoke("Restart", 1f);
         }
     }
     void Restart()
