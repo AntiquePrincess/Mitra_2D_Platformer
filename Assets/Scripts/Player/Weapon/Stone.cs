@@ -12,6 +12,7 @@ public class Stone : MonoBehaviour
 
     private Rigidbody2D _rigidbody;
     private bool _isShot;
+    
     // Start is called before the first frame update
     void Start()
     {

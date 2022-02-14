@@ -40,12 +40,9 @@ public class RangeAttackController : MonoBehaviour
     }
     private void Aim()
     {
-        if (Input.GetButton("Fire2"))
-        {
-            _direction = TargetPoint.position - RangeWeaponPosition.position;
-            _rotationZ = Mathf.Atan2(_direction.y, _direction.x) * Mathf.Rad2Deg;
-            RangeWeaponPosition.rotation = Quaternion.Euler(0, 0,_rotationZ);
-        }
+        _direction = TargetPoint.position - RangeWeaponPosition.position;
+        _rotationZ = Mathf.Atan2(_direction.y, _direction.x) * Mathf.Rad2Deg;
+        RangeWeaponPosition.rotation = Quaternion.Euler(0, 0,_rotationZ);
     }
 
     private void CreateStone()
