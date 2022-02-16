@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -181,6 +182,16 @@ public class Bot_patrul : MonoBehaviour
     {
         Gizmos.color = Color.red;
         Gizmos.DrawLine(transform.position, transform.position + Vector3.right * transform.localScale.x * distance);
+    }
+
+    private void OnTriggerEnter2D(Collider collision)
+    {
+        if (collision.tag == "Weapon")
+        {
+            Destroy(gameObject);
+        }
+
+        ;
     }
 
     /*private void FixedUpdate()

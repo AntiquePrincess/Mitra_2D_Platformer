@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using Unity.Mathematics;
 using UnityEngine;
@@ -12,6 +13,7 @@ public class Stone : MonoBehaviour
 
     private Rigidbody2D _rigidbody;
     private bool _isShot;
+    private bool _isHit = false;
     
     // Start is called before the first frame update
     void Start()
@@ -26,11 +28,24 @@ public class Stone : MonoBehaviour
         Rotate();
     }
 
+    private void OnTriggerEnter2D (Collider2D collision)
+    {
+        if (collision.tag == "tod")
+        {
+            _isHit = true;
+        }
+    }
+
     public void Shot()
     {
         _rigidbody.simulated = true;
         _rigidbody.AddForce(transform.right * force, ForceMode2D.Impulse);
-        Destroy(gameObject, lifeTime);
+        if (_isHit)
+        {
+            Destroy(gameObject);
+        }
+        else
+            Destroy(gameObject, lifeTime);
         _isShot = true;
     }
 
