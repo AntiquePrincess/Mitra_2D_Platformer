@@ -9,31 +9,37 @@ public class MMB : MonoBehaviour // MMB - Main Menu Buttons
 
     void Start()
     {
+        SwitchMenuPage(2);
         LoadDefauldMenuScene();
     }
 
     public void PressStartButton()
     {
+        SwitchMenuPage(2);
         SceneManager.LoadScene(1);
     }
 
     public void PressOptionsButton()
     {
+        SwitchMenuPage(2);
         SwitchMenuPage(1);
     }
 
     public void PressExitButton()
     {
+        SwitchMenuPage(2);
         Application.Quit();
     }
 
     public void PressBackButton()
     {
+        SwitchMenuPage(2);
         SwitchMenuPage(0);
     }
 
     void LoadDefauldMenuScene()
     {
+        SwitchMenuPage(2);
         if (LoadDefauldLayer) SwitchMenuPage(0);
     }
 
