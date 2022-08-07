@@ -205,6 +205,7 @@ GameObject:
   - component: {fileID: 4922994182047933230}
   - component: {fileID: 356567961344856157}
   - component: {fileID: 356567960113089826}
+  - component: {fileID: 7637214822351796586}
   - component: {fileID: 356567960113089833}
   m_Layer: 10
   m_Name: Plyre_1
@@ -220,8 +221,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4922994182047933264}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.5424385, y: 2.0603027, z: 199.65836}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 36.74, y: -38.58, z: 0}
   m_LocalScale: {x: 0.37692434, y: 0.34841666, z: 1}
   m_Children:
   - {fileID: 4922994181947438530}
@@ -381,6 +382,25 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &7637214822351796586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4922994182047933264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 751641a3e9369e340a154de30be3502d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isFull: 00000000
+  slots:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  inventotry: {fileID: 0}
 --- !u!114 &356567960113089833
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -1,7 +1,67 @@
 fileFormatVersion: 2
 guid: d69ade81001e37448bda2158a57afbbc
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -7348976360033113633
+    second: Pile of stones-1.5_0
+  - first:
+      213: 2576141630517397852
+    second: Pile of stones-1.5_1
+  - first:
+      213: 8121524993442035687
+    second: Pile of stones-1.5_2
+  - first:
+      213: 3644032490821695037
+    second: Pile of stones-1.5_3
+  - first:
+      213: -3191062339614644822
+    second: Pile of stones-1.5_4
+  - first:
+      213: -538013451854046416
+    second: Pile of stones-1.5_5
+  - first:
+      213: 847531668960116095
+    second: Pile of stones-1.5_6
+  - first:
+      213: -250912508626025966
+    second: Pile of stones-1.5_7
+  - first:
+      213: 6052747264122750500
+    second: Pile of stones-1.5_8
+  - first:
+      213: 8044531326432218916
+    second: Pile of stones-1.5_9
+  - first:
+      213: -8006763257807131695
+    second: Pile of stones-1.5_10
+  - first:
+      213: 3819173597087303844
+    second: Pile of stones-1.5_11
+  - first:
+      213: -9176680818212634585
+    second: Pile of stones-1.5_12
+  - first:
+      213: 6295561194782251584
+    second: Pile of stones-1.5_13
+  - first:
+      213: 2190368745174280139
+    second: Pile of stones-1.5_14
+  - first:
+      213: 7895374750205991394
+    second: Pile of stones-1.5_15
+  - first:
+      213: -2370260417164706441
+    second: Pile of stones-1.5_16
+  - first:
+      213: -8074521842323661564
+    second: Pile of stones-1.5_17
+  - first:
+      213: 6850954412229665208
+    second: Pile of stones-1.5_18
+  - first:
+      213: 7606661587356089535
+    second: Pile of stones-1.5_19
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -40,13 +100,13 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 0
+  alignment: 9
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 300
+  spriteBorder: {x: 290, y: 259, z: 286, w: 253}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -71,9 +131,210 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Pile of stones-1.5_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 538
+        width: 299.66666
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd9ab75efe0330a90800000000000000
+      internalID: -7348976360033113633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pile of stones-1.5_1
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 538
+        width: 299.66666
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c59c51af92b40c320800000000000000
+      internalID: 2576141630517397852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pile of stones-1.5_2
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 538
+        width: 299.66666
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e7b19ca3f375b070800000000000000
+      internalID: 8121524993442035687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pile of stones-1.5_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 269
+        width: 299.66666
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d36b8655e34329230800000000000000
+      internalID: 3644032490821695037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pile of stones-1.5_4
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 269
+        width: 299.66666
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa5642785b117b3d0800000000000000
+      internalID: -3191062339614644822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pile of stones-1.5_5
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 269
+        width: 299.66666
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b9bd5bd979888f0800000000000000
+      internalID: -538013451854046416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pile of stones-1.5_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 299.66666
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7df240009903cb00800000000000000
+      internalID: 847531668960116095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pile of stones-1.5_7
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 0
+        width: 299.66666
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 212c4ad1764948cf0800000000000000
+      internalID: -250912508626025966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pile of stones-1.5_8
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 0
+        width: 299.66666
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4260141619daff350800000000000000
+      internalID: 6052747264122750500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
