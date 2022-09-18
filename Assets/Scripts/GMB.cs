@@ -40,6 +40,16 @@ public class GMB : MonoBehaviour // GMB - Game Menu Buttons
         SwitchMenuPage(1);
     }
 
+    public void PressPauseButtonChast()
+    {
+        if (isPause) { PressResumeButton(); return; }
+
+        Time.timeScale = 0f;
+        isPause = true;
+
+        SwitchMenuPage(2);
+    }
+
     public void PressExitToMM()
     {
         SceneManager.LoadScene("MainMenu");
